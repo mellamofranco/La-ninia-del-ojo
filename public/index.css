@@ -1,0 +1,28 @@
+body {    
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  overflow:hidden;
+  background-color:#ededed;
+}
+
+img {
+  width:100vw;
+  height:100vh;
+  object-fit:scale-down;
+}
+
+a {
+  font-size:1.5em;
+  position:absolute;
+  bottom:24px;
+  right:24px;
+  text-decoration:none;
+  color:black;
+  transition:text-shadow 1s ease;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  text-shadow:1px 1px 8px #1c1c1c;
+}

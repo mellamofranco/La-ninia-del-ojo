@@ -1,0 +1,95 @@
+body {
+  font-family:"Nunito";
+  font-weight:bold;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+    cursor:none; 
+}
+
+#radar {    
+  display:none;
+  position:absolute;
+  width:400px;
+  height:400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  object-fit:scale-down;
+  transition:transform 0.1s ease;
+}
+
+#webgazerNavbar {
+  display:none;
+}
+
+#webgazerGazeDot {
+  display:none!important;
+}
+
+#debug {
+  display:flex;
+  align-items:center;
+  position:absolute;
+  top:0;
+  right:12px;
+}
+
+#debug button {
+  background:none;
+  border:1px solid #1c1c1c;
+  /* padding:8px; */
+  font-size:1.0em;
+  margin:4px;
+  padding:8px;
+  /* margin-top:12px; */
+}
+
+a#buttonFin {
+  display:none;
+  font-family:"Nunito";
+  position:absolute;
+  font-size:1.5em;
+  bottom:12px;
+  right:12px;
+  border:none;
+  text-decoration:none;
+  background:none;
+  cursor:pointer;
+  transition:text-shadow 0.5s ease;
+  color:black;
+  z-index:50;
+}
+a#buttonFin:hover {
+  text-shadow: 1px 1px 8px #1c1c1c;
+}
+
+#debug button#startAudio {
+  font-size:2.5em;
+  color:grey;
+  border:none;
+  transition:text-shadow 0.5s ease;
+  cursor:pointer;
+}
+
+#debug button#startAudio img {
+  width:40px;
+  height:40px;
+
+}
+
+#debug button#startAudio:hover {
+  text-shadow:1px 1px 4px black;
+
+}
